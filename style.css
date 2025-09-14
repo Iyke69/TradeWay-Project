@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* This styles the body */
+body {
+    font-family: "inter", sans-serif;
+}
+
+
+/* This styles the sign in button */
+.fb:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+    border-color: inherit !important;
+}
+
+/* This styles the carousel section */
+.carousel-section {
+    background: linear-gradient(to bottom, #1a73e8 0%, #f0f4ff 50%, #ffffff 100%);
+    border-radius: 10px;
+}
