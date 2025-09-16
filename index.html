@@ -18,19 +18,19 @@
         <div class="container"> 
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> 
                 <div class="col-md-3 mb-2 mb-md-0"> 
-                    <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none"> 
-                        <img src="./Images/logo.jpg" alt="tradeway logo" height="100">
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none"> 
+                        <img src="./Images/logo.jpg" alt="" height="100"> 
                     </a> 
                 </div> 
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
-                    <li><a href="index.html" class="nav-link px-2 link-dark">Home</a></li> 
-                    <li><a href="features.html" class="nav-link px-2 link-dark">Features</a></li> 
-                    <li><a href="pricing.html" class="nav-link px-2 link-dark">Pricing</a></li> 
-                    <li><a href="faqs.html" class="nav-link px-2 link-dark">FAQs</a></li>  
-                </ul> 
+                    <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li> 
+                    <li><a href="features.html" class="nav-link px-2">Features</a></li> 
+                    <li><a href="pricing.html" class="nav-link px-2">Pricing</a></li> 
+                    <li><a href="faqs.html" class="nav-link px-2">FAQs</a></li> 
+                </ul>
                 <div class="col-md-3 text-end"> 
-                    <button type="button" class="btn  btn-primary me-2" onclick="window.open('getstarted.html' , '_blank')">Get Started</button> 
-                    <button type="button" class="btn btn-outline-dark fb onclick=" onclick="window.open('signin.html' , '_blank')">Sign In</button> 
+                    <button type="button" class="btn btn-outline-primary me-2" onclick="window.open('signin.html','_blank')">Sign-In</button> 
+                    <button type="button" class="btn btn-primary" onclick="window.open('getstarted.html','_blank')">Get Started</button> 
                 </div> 
             </header> 
         </div>
@@ -38,46 +38,79 @@
 
     <!--Hero: will still need some updates-->
     <section>
-        <div class="px-4 pt-5 my-5 text-center border-bottom"> 
-            <h1 class="display-4 fw-bold text-body-emphasis">Master the Market <br> Before You Risk a Dollar</h1> 
+      <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">Master the Market Before You Risk a Dollar</h1> 
             <div class="col-lg-6 mx-auto"> 
-                <p class="lead mb-4">TradeWay is your safe space to practice, journal and perfect your strategies with real market data so you gain the <em>skills, confidence, and discipline to face the market like a pro.</em></p> 
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> 
-                    <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3" onclick="window.location.href='pricing.html'">Perfect My Trade</button> 
+                <p class="lead mb-4">TradeWay is your safe space to practice, journal and perfect your strategies with real market data so you gain the <em>skils, confidence and discipline to face the market like a pro</em></p> 
+                <div class=" gap-2 d-sm-flex justify-content-sm-center"> 
+                    <button type="button" class="btn btn-primary btn-lg px-4">Get Started</button>                   </button> 
                 </div> 
             </div> 
         </div>
     </section>
 
-    <!--Carousel: still needs updates and chaning the images as well-->
-    <section class="carousel-section">
-        <div class="container pt-2">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./Images/trades.jpg" class="d-block w-100" alt="..." style="border-radius: 10px; height: 500px;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./Images/trades2.jpg" class="d-block w-100" alt="..." style="border-radius: 10px; height: 500px;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./Images/trades3.jpg" class="d-block w-100" alt="..." style="border-radius: 10px; height: 500px;">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+    <!--Features-->
+    <section>
+        <div class="container px-4 py-5" id="hanging-icons"> 
+            <h2 class="pb-2 border-bottom">Why TradeWay?</h2> 
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+                        </svg> 
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">Real TradingView Charts</h3> 
+                        <p>Practice on <strong>live charts</strong> powered by TradingView, so every decision feels like the real market.</p> 
+                        <a href="./getstarted.html" class="btn btn-primary">Build My Edge</a> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                            <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z"/>
+                        </svg> 
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">AI Trading Coaching</h3> 
+                        <p>Your personal AI assistant analyzes your journal and trading patterns to help you <strong>learn faster, control emotions, and avoid repeated mistakes.</strong></p> 
+                        <a href="./getstarted.html" class="btn btn-primary">Start Trading Smarter</a> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                            <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                        </svg>
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 text-body-emphasis">Risk-Free Strategy Testing</h3> 
+                        <p>Perfect your trading strategies in a <strong>safe space environment</strong> before going live, building confidence without risking real money.</p> 
+                        <a href="./getstarted.html" class="btn btn-primary">Level Up My Trading</a> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <!--Jumbotron: will need more edditing in the future-->
+    <section>
+        <div class="container my-5"> 
+            <div class="p-5 text-center bg-body-tertiary rounded-3"> 
+                <img src="./Images/tradingview.jpg" alt=""> 
+                <h2 class="text-body-emphasis pt-3">Trade on Real Charts. Risk-Free</h2> 
+                <p class="col-lg-8 mx-auto fs-5 text-muted">Experience the markets in real time with live TradingView charts. Practice your strategies, test your setups, and build confidence all without risking a single dollar.</p> 
+                <div class="d-inline-flex gap-2 mb-5"> 
+                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">Trade Like a Pro Today</button> 
+                </div> 
             </div>
         </div>
     </section>
 
 
 
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
