@@ -6,7 +6,17 @@
 
 /* This styles the body */
 body {
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+/* This styles all H's */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+
+/* This styles all paragraph, list and anchor tags */
+p, li, a {
+    font-family: sans-serif;
 }
 
 /* This styles the features icons */
