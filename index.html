@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!--Header-->
@@ -43,7 +46,7 @@
             <div class="col-lg-6 mx-auto"> 
                 <p class="lead mb-4">TradeWay is your safe space to practice, journal and perfect your strategies with real market data so you gain the <em>skils, confidence and discipline to face the market like a pro</em></p> 
                 <div class=" gap-2 d-sm-flex justify-content-sm-center"> 
-                    <button type="button" class="btn btn-primary btn-lg px-4">Get Started</button>                   </button> 
+                    <button type="button" class="btn btn-primary btn-lg px-4" onclick="window.open('getstarted.html','_blank')">Get Started</button> 
                 </div> 
             </div> 
         </div>
@@ -102,10 +105,77 @@
                 <h2 class="text-body-emphasis pt-3">Trade on Real Charts. Risk-Free</h2> 
                 <p class="col-lg-8 mx-auto fs-5 text-muted">Experience the markets in real time with live TradingView charts. Practice your strategies, test your setups, and build confidence all without risking a single dollar.</p> 
                 <div class="d-inline-flex gap-2 mb-5"> 
-                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">Trade Like a Pro Today</button> 
+                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="window.open('getstarted.html','_blank')">Trade Like a Pro Today</button> 
                 </div> 
             </div>
         </div>
+    </section>
+
+    <!--Pricing: Will need more modfication in the future-->
+    <section>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center"> 
+            <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1> 
+            <p class="fs-5 text-body-secondary">Your trading journal deserves the right tools. From free practice to advanced AI coaching, TradeWay pricing is built to give you maximum value at every stage.</p> 
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+                <div class="col"> 
+                    <div class="card mb-4 rounded-3 shadow-sm"> 
+                        <div class="card-header py-3"> 
+                            <h4 class="my-0 fw-normal">Free</h4> 
+                        </div> 
+                        <div class="card-body"> 
+                            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1> 
+                            <ul class="list-unstyled mt-3 mb-4"> 
+                                <li>Limited Backtesting Sessions</li> 
+                                <li>Email support</li>
+                                <li>.</li>
+                                <li>.</li>
+                                <li>.</li> 
+                            </ul> 
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('getstarted.html','_blank')">Start Free</button> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="col"> 
+                    <div class="card mb-4 rounded-3 shadow-sm"> 
+                        <div class="card-header py-3"> 
+                            <h4 class="my-0 fw-normal">Pro</h4> 
+                        </div> 
+                        <div class="card-body"> 
+                            <h1 class="card-title pricing-card-title">$11.99<small class="text-body-secondary fw-light">/mo</small></h1> 
+                            <ul class="list-unstyled mt-3 mb-4"> 
+                                <li>Unlimited Backtesing Sessions</li> 
+                                <li>Trading Journal</li> 
+                                <li>Priority email support</li> 
+                                <li>.</li>
+                                <li>.</li>
+                            </ul> 
+                            <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('getstarted.html','_blank')">Level Up</button> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="col"> 
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary"> 
+                        <div class="card-header py-3 text-bg-primary border-primary"> 
+                            <h4 class="my-0 fw-normal">Elite</h4> 
+                        </div> 
+                        <div class="card-body"> 
+                            <h1 class="card-title pricing-card-title">$20.99<small class="text-body-secondary fw-light">/mo</small></h1> 
+                            <ul class="list-unstyled mt-3 mb-4"> 
+                                <li>Unlimited Backtesing Sessions</li> 
+                                <li>Premium AI Trading Coach</li> 
+                                <li>Advanced Trading Journal Insights</li> 
+                                <li>Win Rate Calculator</li>
+                                <li>24/7 Elite Support</li>
+                            </ul> 
+                            <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('getstarted.html','_blank')">Go All In</button> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        
     </section>
 
 
