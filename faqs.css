@@ -18,8 +18,3 @@ h1, h2{
 p {
     font-family: sans-serif;
 }
-
-/* This puts both my h1 and p in the center*/
-.text-align {
-    text-align: center;
-}
