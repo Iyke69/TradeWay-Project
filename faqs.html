@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faqs</title>
+    <link rel="icon" type="image/png" href="./Images/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="faqs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header-->
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> 
+                <div class="col-md-3 mb-2 mb-md-0"> 
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none"> 
+                        <img src="./Images/logo.jpg" alt="" height="100"> 
+                    </a> 
+                </div> 
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
+                    <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li> 
+                    <li><a href="features.html" class="nav-link px-2">Features</a></li> 
+                    <li><a href="pricing.html" class="nav-link px-2">Pricing</a></li> 
+                    <li><a href="faqs.html" class="nav-link px-2">FAQs</a></li> 
+                </ul>
+                <div class="col-md-3 text-end"> 
+                    <button type="button" class="btn btn-outline-primary me-2" onclick="window.open('signin.html','_blank')">Sign-In</button> 
+                    <button type="button" class="btn btn-primary" onclick="window.open('getstarted.html','_blank')">Get Started</button> 
+                </div> 
+            </header> 
+        </div>
+    </section>
+
+    <!--Accordion for Faqs (frequently asked questions)-->
+    <section>
+        <div class="accordion container" id="accordionPanelsStayOpenExample">
+            <h1 class="text-align mb-2">Frequently Asked Question</h1>
+            <p class="text-align mt-1">Before you start trading with TradeWay, here are the most common questions traders like you ask — clear and simple</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Is TradeWay free to use?</button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        Yes — you can start completely free. The free plan gives you limited backtesting and basoc features, and you can upgrade anytime as you grow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Does TradeWay tell me what trades to take?</button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                         No. TradeWay doesn't give signals. Instead, it helps you sharpen your own decisions with charts, journaling, and AI-powered feedback.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">I'm new to trading. is this for me?</button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Absolutely. TradeWay is built for all levels — from complete beginners to advanced traders testing new strategies. 
+                    </div>
+                </div>
+            </div>
+             <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">What makes TradeWay different?</button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Most demo accounts feel empty. TradeWay adds AI suppor, performance tracking, and emotional discipline tools, so you actually grow as a trader.
+                    </div>
+                </div>
+            </div>
+             <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">Will practicing here make me a profitable trader?</button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        That's up to you. TradeWay gives you the tools to improve — but consistency, discipline, and patience are what make traders succeed.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Jumbotron: will need more edditing in the future-->
+    <section>
+        <div class="container my-5"> 
+            <div class="p-5 text-center bg-body-tertiary rounded-3"> 
+                <img src="./Images/tradingview.jpg" alt="" class="img-fluid"> 
+                <h2 class="text-body-emphasis pt-3">Trade on Real Charts. Risk-Free</h2> 
+                <p class="col-lg-8 mx-auto fs-5 text-muted">Experience the markets in real time with live TradingView charts. Practice your strategies, test your setups, and build confidence all without risking a single dollar.</p> 
+                <div class="d-inline-flex gap-2 mb-5"> 
+                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="window.open('getstarted.html','_blank')">Trade Like a Pro Today</button> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <div class="container"> 
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                <li class="nav-item"><a href="features.html" class="nav-link px-2 text-body-secondary">Features</a></li> 
+                <li class="nav-item"><a href="pricing.html" class="nav-link px-2 text-body-secondary">Pricing</a></li> 
+                <li class="nav-item"><a href="faqs.html" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+            </ul> 
+            <p class="text-center text-body-secondary">© 2025 TradeWay, Inc</p> 
+        </footer> 
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
