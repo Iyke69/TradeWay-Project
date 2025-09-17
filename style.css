@@ -26,3 +26,7 @@ p, li, a {
     border-radius: .75rem;
 }
 
+/* This puts both my h1 and p to the center in the faqs accordion*/
+.text-align {
+    text-align: center;
+}
